@@ -1,0 +1,109 @@
+body{
+  background: #b7d7e8;
+}
+button:focus{
+  outline: none;
+}
+div label {
+  padding-top: 5px;
+}
+i:hover{
+  cursor: pointer;
+  transition: .7s;
+  transform: scale(1.2);
+}
+.mainCont{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topBar{
+  display: grid;
+  height: 40px;
+  width: 40%;
+  grid-template-columns: 8% repeat(4,1fr);
+}
+.topBar button{
+  font-size: 16px;
+  background: transparent;
+  border: none;
+}
+.topBar button i{
+  padding-right: 5px;
+  font-size: 19px;
+}
+.topBar .fa-play-circle{
+  color: green;
+  border-right: 1px solid #000;
+}
+.topBar .fa-undo{
+  transform: rotateZ( 50deg);
+}
+.delete {
+  transform: rotateZ(-45deg);
+  color: red;
+}
+.delete2 {
+  color: red;
+  padding-right: 5px;
+}
+.modalBar{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr repeat(2,1fr) 2fr repeat(9,1fr);
+  background: grey;
+}
+.createForm{
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr repeat(2,1fr) 2fr repeat(9,1fr);
+}
+.createForm input {
+  width: 100%;
+}
+.modalBar .block{
+  border: 1px solid #b7d7e8;
+  color: #fff;
+  width: 100%;
+}
+.blockInp{
+  width: 100%;
+}
+.botBar{
+  margin-top: 60px;
+  background: grey;
+}
+.botBar .block{
+  border: 1px solid #b7d7e8;
+  color: #fff;
+}
+.alt{
+  color: rgba(193,191,234,1);
+  color: -moz-linear-gradient(top, rgba(193,191,234,1) 0%, rgba(193,191,234,1) 1%, rgba(114,113,143,1) 84%, rgba(114,113,143,1) 100%);
+  color: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(193,191,234,1)), color-stop(1%, rgba(193,191,234,1)), color-stop(84%, rgba(114,113,143,1)), color-stop(100%, rgba(114,113,143,1)));
+  color: -webkit-linear-gradient(top, rgba(193,191,234,1) 0%, rgba(193,191,234,1) 1%, rgba(114,113,143,1) 84%, rgba(114,113,143,1) 100%);
+  color: -o-linear-gradient(top, rgba(193,191,234,1) 0%, rgba(193,191,234,1) 1%, rgba(114,113,143,1) 84%, rgba(114,113,143,1) 100%);
+  color: -ms-linear-gradient(top, rgba(193,191,234,1) 0%, rgba(193,191,234,1) 1%, rgba(114,113,143,1) 84%, rgba(114,113,143,1) 100%);
+  color: linear-gradient(to bottom, rgba(193,191,234,1) 0%, rgba(193,191,234,1) 1%, rgba(114,113,143,1) 84%, rgba(114,113,143,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1bfea', endColorstr='#72718f', GradientType=0 );
+  padding-right: 5px;
+}
+.printBottomBlock{
+  text-align: center;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: 2fr 1fr 3fr repeat(2,1fr) 2fr repeat(9,1fr);
+}
+.printBlock{
+  border: 1px solid #b7d7e8;
+  background: #fff;
+}
+.middleBlock{
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 8fr 1fr 1fr;
+}
+.middleBlock div{
+  font-size: 22px;
+  padding-left: 30px;
+}
